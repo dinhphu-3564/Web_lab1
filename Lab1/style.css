@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(228, 207, 178);
+  color: rgb(255, 47, 0);
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+  background-color: rgb(255, 132, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+button:hover {
+  background-color: rgb(255, 47, 0);
+  color: white;
+}
+button:active {
+  transform: scale(0.98);
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+a {
+  color: rgb(255, 47, 0);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
